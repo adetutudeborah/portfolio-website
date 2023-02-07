@@ -129,3 +129,73 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 576px) {
+  h2{
+     font-size: 32px;
+  }
+
+  h1{
+    font-size: 48px;
+  }
+
+  h3{
+    font-size: 24px;
+  }
+
+  .main-content{
+    padding: 0px 6%;
+    line-height: 1.8;
+  }
+
+  .about-me {
+    font-size: 48px;
+  }
+
+  .navigation-links{
+    white-space: nowrap;
+  }
+
+  .contact-me {
+    font-size: 40px;
+  }
+  
+  .email-link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h2{
+     font-size: 24px;
+  }
+
+  h1{
+    font-size: 32px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  .about-me {
+    font-size: 32px;
+  }
+
+  .navigation-links{
+    white-space: nowrap;
+  }
+
+  .navigation-links a {
+    margin: 10px;
+    padding: 10px 8px;
+  }
+
+  .contact-me {
+    font-size: 20px;
+  }
+  
+  .email-link {
+    font-size: 10px;
+  }
+}
