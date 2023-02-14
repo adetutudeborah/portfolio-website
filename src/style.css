@@ -25,9 +25,26 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
+  font-size: 64px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.main-content {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.main-content h2 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
@@ -35,30 +52,15 @@ h2 {
   font-family: var(--default-font-family);
 }
 
-h3 {
+.main-content h3 {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
 }
 
-p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-}
-
 .container {
   width: 100%;
   margin: 0 10%;
-}
-
-.main-content {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 200px 20px;
 }
 
 .nav-item {
@@ -91,14 +93,6 @@ p {
   justify-content: center;
 }
 
-/* .navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-} */
-
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -109,10 +103,22 @@ p {
   padding: 15px 30px;
 }
 
-/* .about-link {
+.project-description {
+  padding: 120px 60px;
+}
+
+.btn-branding-outline {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-} */
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  border: 1px solid var(--primary-color);
+}
 
 .homepage-link {
   color: var(--primary-color);
