@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f9f7fe;
@@ -36,6 +40,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  width: 100%;
 }
 
 .main-content {
@@ -126,6 +131,8 @@ p {
   display: block;
 }
 
+  /* About page */
+
 .about-me {
   font-size: 80px;
 }
@@ -156,23 +163,68 @@ p {
   text-decoration: underline;
 }
 
+@media screen and (min-width: 750px) {
+  .project-description {
+    padding: 20px 0px;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  .project-description {
+    padding: 20px 0px;
+  }
+
+}
+
 @media screen and (max-width: 576px) {
-  h2{
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  .main-content h2{
      font-size: 32px;
   }
 
-  h1{
-    font-size: 48px;
+  .main-content h1{
+    font-size: 45px;
   }
 
-  h3{
+  .main-content h3{
     font-size: 24px;
   }
 
   .main-content{
-    padding: 0px 6%;
-    line-height: 1.8;
+    width: 100%;
+    padding: 100px 20px;
+    line-height: 1.5;
   }
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .project-heading{
+    padding: 0 20px;
+  }
+
+  .project-description {
+    padding: 20px 0px;
+
+  }
+
+  a .btn .btn-branding-outline{
+    align-items: center;
+
+  }
+
+  /* About page */
 
   .about-me {
     font-size: 48px;
@@ -192,16 +244,48 @@ p {
 }
 
 @media screen and (max-width: 320px) {
-  h2{
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p{
+    text-align: center;
+  }
+  
+  .main-content h2{
      font-size: 24px;
   }
 
-  h1{
+  .main-content h1{
     font-size: 32px;
   }
 
-  h3{
+  .main-content h3{
     font-size: 18px;
+  }
+
+  .main-content{
+    width: 100%;
+    padding: 100px 20px;
+    line-height: 1.5;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .project-heading{
+    padding: 0 20px;
+  }
+
+  .project-description {
+    padding: 30px;
+  }
+
+  a .btn .btn-branding-outline{
+    align-items: center;
   }
 
   .about-me {
