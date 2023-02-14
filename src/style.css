@@ -163,12 +163,6 @@ p {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 750px) {
-  .project-description {
-    padding: 20px 0px;
-  }
-
-}
 
 @media screen and (min-width: 600px) and (max-width: 750px) {
   .project-description {
