@@ -169,14 +169,55 @@ p {
   }
 
 
-@media screen and (min-width: 600px) and (max-width: 750px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
   .project-description {
     padding: 20px 0px;
   }
 
+  .about-section {
+    text-align: center;
+    padding: 120px 20px;
+  }
+
+  .profile-img{
+    margin-top: 50px;
+  }
+
+  /* About page */
+
+  .about-section {
+    text-align: center;
+    padding: 120px 20px;
+  }
+
+  .about-section-content {
+    margin: 0px;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .about-section h1{
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .about-section h3{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .about-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+
+  .profile-img{
+    margin-top: 50px;
+  }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 599px) {
 
   h2 {
     font-size: 40px;
@@ -223,11 +264,49 @@ p {
 
   }
 
+  .btn-branding {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 10px 20px;
+  }
+
   /* About page */
+
+  .about-section {
+    text-align: center;
+    padding: 120px 20px;
+  }
+
+  .about-section-content {
+    margin: 0px;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .about-section h1{
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .about-section h3{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .about-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+
+  .profile-img{
+    margin-top: 50px;
+  }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 
   h2 {
     font-size: 40px;
@@ -272,5 +351,44 @@ p {
     align-items: center;
   }
 
-  /* About section */
+  .btn-branding {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 10px 20px;
+  }
+
+  /* About page */
+
+  .about-section {
+    text-align: center;
+    padding: 120px 20px;
+  }
+
+  .about-section-content {
+    margin: 0px;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .about-section h1{
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .about-section h3{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .about-section p {
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+
+  .profile-img{
+    margin-top: 50px;
+  }
+
 }
