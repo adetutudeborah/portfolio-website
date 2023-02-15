@@ -98,14 +98,16 @@ p {
   justify-content: center;
 }
 
-.contact-link {
+.btn-branding {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   border-radius: 4px;
   color: white;
   font-size: 18px;
+  font-weight: 700;
   line-height: 27px;
   padding: 15px 30px;
+  text-decoration: none;
 }
 
 .project-description {
@@ -133,35 +135,38 @@ p {
 
   /* About page */
 
-.about-me {
-  font-size: 80px;
-}
+  .about-section {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 180px 20px 100px;
+  }
 
-.about-text {
-  background-color: #fff;
-  text-align: center;
-  padding: 0 10px;
-}
+  .about-section-content {
+    margin: 30px;
+    text-align: left;
+    line-height: 4;
+  }
 
-.about-paragraphs p {
-  margin-top: 30px;
-}
+  .about-section h1{
+    font-family: var(--heading-font-family);
+    font-size: 64px;
+    font-weight: bold;
+    text-align: left;
+  }
 
-.contact-me {
-  font-size: 50px;
-}
+  .about-section h3{
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    font-weight: 900;
+    text-align: left;
+  }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
+  .about-section p {
+    font-family: var(--default-font-family);
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 2;
+  }
 
 
 @media screen and (min-width: 600px) and (max-width: 750px) {
@@ -220,21 +225,6 @@ p {
 
   /* About page */
 
-  .about-me {
-    font-size: 48px;
-  }
-
-  .navigation-links{
-    white-space: nowrap;
-  }
-
-  .contact-me {
-    font-size: 40px;
-  }
-  
-  .email-link {
-    font-size: 20px;
-  }
 }
 
 @media screen and (max-width: 320px) {
@@ -282,24 +272,5 @@ p {
     align-items: center;
   }
 
-  .about-me {
-    font-size: 32px;
-  }
-
-  .navigation-links{
-    white-space: nowrap;
-  }
-
-  .navigation-links a {
-    margin: 10px;
-    padding: 10px 8px;
-  }
-
-  .contact-me {
-    font-size: 20px;
-  }
-  
-  .email-link {
-    font-size: 10px;
-  }
+  /* About section */
 }
