@@ -187,9 +187,31 @@ p {
 
  .content p {
     font-family: var(--default-font-family);
-    font-weight: 550;
     font-size: 16px;
     line-height: 2;
+  }
+
+  /* Footer */
+
+  footer {
+    margin: 60px 0;
+  }
+
+  footer .social-link {
+    margin: 0 30px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px; 
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+  }
+
+  
+  .social-link:hover {
+    color: white;
+    background-color: var(--primary-color);
+
   }
 
 
