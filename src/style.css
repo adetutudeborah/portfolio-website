@@ -36,6 +36,14 @@ h2 {
   font-size: 64px;
 }
 
+h2 {
+  font-size: 64px;
+}
+
+h5 {
+  font-size: 35px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -121,7 +129,7 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 120px 40px;
 }
 
 .btn-branding-outline {
@@ -146,9 +154,9 @@ p {
   /* About page */
 
  .content-container {
-    background: var(--secondary-color);
+    /* background: var(--secondary-color); */
     text-align: center;
-    padding: 180px 20px 100px;
+    padding: 180px 20px 30px;
   }
 
  .content {
@@ -197,23 +205,28 @@ p {
     margin: 60px 0;
   }
 
+  .contact-box{
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+  }
+
   footer .social-link {
     margin: 0 30px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
-    padding: 10px 14px; 
-    font-size: 20px;
+    padding: 12px 14px; 
+    font-size: 18px;
     border-radius: 50%;
     transition: all 100ms ease-in-out;
   }
 
-  
   .social-link:hover {
     color: white;
     background-color: var(--primary-color);
-
   }
 
+  
 
 @media screen and (min-width: 600px) and (max-width: 999px) {
   .project-description {
