@@ -33,11 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
-}
-
-h2 {
-  font-size: 64px;
+  font-size: 45px;
 }
 
 h5 {
@@ -95,32 +91,6 @@ p {
   font-size: 24px;
 }
 
-.app-title {
-  text-align: left;
-}
-
-.about-app {
-  background-color: #fff;
-  text-align: left;
-  padding: 0;
-}
-
-.app-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
 .btn-branding {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -134,7 +104,7 @@ p {
 }
 
 .project-description {
-  padding: 120px 40px;
+  padding: 0px 40px;
 }
 
 .btn-branding-outline {
@@ -143,36 +113,36 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 15px;
 }
 
 .btn-branding-outline:hover {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
+/* Projects section */
+
+.project-description h2{
+  font-family: 35px;
 }
 
   /* About page */
 
  .content-container {
     /* background: var(--secondary-color); */
-    text-align: center;
-    padding: 180px 20px 30px;
+    /* text-align: center; */
+    /* padding: 180px 20px 30px; */
   }
 
  .content {
-    margin: 30px;
+    margin-right: 85px;
     text-align: left;
     line-height: 4;
   }
 
  .content h1{
     font-family: var(--heading-font-family);
-    font-size: 56px;
+    font-size: 45px;
     font-weight: bold;
     text-align: left;
   }
@@ -204,20 +174,30 @@ p {
     line-height: 2;
   }
 
+  .skills-section{
+    margin: 5% 10%;
+  }
+
+  .skill-text{
+    text-align: left;
+    font-size: 40px;
+  }
+
   /* Footer */
 
-  footer {
+  .project-link{
+    padding: 30px 120px;
+    border-radius: 10px;
     margin: 60px 0;
   }
 
-  .contact-box{
-    background-color: var(--secondary-color);
-    padding: 30px 120px;
-    border-radius: 10px;
-  }
+.social-links{
+  background-color: var(--secondary-color);
+  padding: 50px;
+}
 
-  footer .social-link {
-    margin: 0 30px;
+ .social-link {
+    margin: 0 20px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     padding: 12px 14px; 
@@ -255,6 +235,7 @@ p {
   }
 
  .content {
+    padding: 0;
     margin: 0px;
     text-align: center;
     line-height: 2;
@@ -368,6 +349,10 @@ p {
     margin-top: 50px;
   }
 
+  .social-link {
+    margin: 0 10px;
+  }
+
 }
 
 @media screen and (max-width: 360px) {
@@ -455,4 +440,7 @@ p {
     margin-top: 50px;
   }
 
+  .social-link {
+    margin: 0 10px;
+  }
 }
