@@ -182,7 +182,7 @@ p {
 
   .skill-text{
     text-align: left;
-    font-size: 40px;
+    font-size: 34px;
   }
 
   /* Work page */
@@ -201,7 +201,7 @@ p {
   .contact-box{
     padding: 40px 100px;
     border-radius: 10px;
-    margin: 30px 10%;
+    margin: 40px 10%;
     background-color: var(--secondary-color);
   }
 
@@ -386,7 +386,7 @@ p {
 
   .skill-text{
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
   }
 /* Work page */
 
@@ -490,7 +490,7 @@ p {
 
   .skill-text{
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
   }
 
   /* Work page */
