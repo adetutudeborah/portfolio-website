@@ -29,7 +29,6 @@ h6 {
 
 h1 {
   font-size: 90px;
-  line-height: 1.5;
 }
 
 h2 {
@@ -97,9 +96,8 @@ p {
   border-radius: 4px;
   color: white;
   font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  padding: 15px 30px;
+  line-height: 20px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -114,22 +112,27 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 10px 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-branding-outline:hover {
   border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 .project-link{
-  padding: 30px 120px;
+  padding: 30px 0px;
   border-radius: 10px;
   margin: 60px 0;
 }
 
 /* Projects section */
 
-.project-description h2{
-  font-family: 35px;
+.project-description p{
+  text-align: left;
 }
 
   /* About page */
@@ -204,7 +207,7 @@ p {
 
   .social-links{
     background-color: var(--secondary-color);
-    padding: 50px;
+    padding: 40px;
   }
 
  .social-link {
@@ -253,7 +256,7 @@ p {
   }
 
  .content h1{
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
   }
 
@@ -284,20 +287,21 @@ p {
   }
 
   .main-content h2{
-     font-size: 32px;
+     font-size: 26px;
   }
 
   .main-content h1{
     font-size: 45px;
+    margin-top: 10px;
   }
 
   .main-content h3{
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .main-content{
     width: 100%;
-    padding: 100px 20px;
+    padding: 150px 20px 50px;
     line-height: 1.5;
   }
 
@@ -325,6 +329,12 @@ p {
     font-weight: 700;
     line-height: 27px;
     padding: 10px 20px;
+  }
+
+  .project-link{
+    padding: 30px 0px;
+    border-radius: 10px;
+    margin: 20px 0;
   }
 
   /* About page */
@@ -360,6 +370,10 @@ p {
     margin-top: 50px;
   }
 
+  .social-links{
+    padding: 20px;
+  }
+
   .social-link {
     margin: 0 10px;
   }
@@ -369,7 +383,7 @@ p {
 @media screen and (max-width: 360px) {
 
   h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   p{
@@ -390,7 +404,7 @@ p {
 
   .main-content{
     width: 100%;
-    padding: 100px 20px;
+    padding: 150px 20px 50px;
     line-height: 1.5;
   }
 
@@ -403,10 +417,6 @@ p {
     padding: 0 20px;
   }
 
-  .project-description {
-    padding: 30px;
-  }
-
   a .btn .btn-branding-outline{
     align-items: center;
   }
@@ -416,6 +426,12 @@ p {
     font-weight: 700;
     line-height: 27px;
     padding: 10px 20px;
+  }
+
+  .project-link{
+    padding: 30px 0px;
+    border-radius: 10px;
+    margin: 20px 0;
   }
 
   /* About page */
@@ -449,6 +465,10 @@ p {
 
   .profile-img{
     margin-top: 50px;
+  }
+
+  .social-links{
+    padding: 20px;
   }
 
   .social-link {
