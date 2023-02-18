@@ -274,6 +274,11 @@ p {
   .profile-img{
     margin-top: 50px;
   }
+
+  .skill-text{
+    text-align: center;
+    font-size: 35px;
+  }
 }
 
 @media screen and (max-width: 599px) {
@@ -363,11 +368,15 @@ p {
  .content p {
     font-size: 14px;
     line-height: 1.5;
-    padding: 0 20px;
   }
 
   .profile-img{
     margin-top: 50px;
+  }
+
+  .skill-text{
+    text-align: center;
+    font-size: 32px;
   }
 
   .social-links{
@@ -403,8 +412,6 @@ p {
   }
 
   .main-content{
-    width: 100%;
-    padding: 150px 20px 50px;
     line-height: 1.5;
   }
 
@@ -438,7 +445,7 @@ p {
 
  .content-container {
     text-align: center;
-    padding: 120px 20px;
+    padding: 120px 20px 60px;
   }
 
  .content{
@@ -460,11 +467,15 @@ p {
  .content p {
     font-size: 12px;
     line-height: 1.5;
-    padding: 0 20px;
   }
 
   .profile-img{
-    margin-top: 50px;
+    margin-top: 30px;
+  }
+
+  .skill-text{
+    text-align: center;
+    font-size: 32px;
   }
 
   .social-links{
