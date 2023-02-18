@@ -187,9 +187,14 @@ p {
   }
 
   /* Work page */
+
+  .work-text h1{
+    font-size: 45px;
+  }
+
   .section-container {
     text-align: center;
-    padding: 180px 20px 30px;
+    padding: 150px 0px 30px;
   }
 
   .contact-box{
@@ -378,6 +383,11 @@ p {
     text-align: center;
     font-size: 32px;
   }
+/* Work page */
+
+  .work-text h1{
+    font-size: 32px;
+  }
 
   .social-links{
     padding: 20px;
@@ -475,6 +485,12 @@ p {
 
   .skill-text{
     text-align: center;
+    font-size: 32px;
+  }
+
+  /* Work page */
+
+  .work-text h1{
     font-size: 32px;
   }
 
