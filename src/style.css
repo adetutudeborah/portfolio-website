@@ -22,7 +22,6 @@ h4,
 h5,
 h6 {
   color: black;
-  text-align: center;
   font-weight: bold;
   font-family: var(--heading-font-family);
 }
@@ -192,13 +191,15 @@ p {
     font-size: 45px;
   }
 
+  /* Contact page */
+
   .section-container {
     text-align: center;
     padding: 150px 0px 30px;
   }
 
   .contact-box{
-    padding: 30px 120px;
+    padding: 40px 100px;
     border-radius: 10px;
     margin: 30px 10%;
     background-color: var(--secondary-color);
@@ -283,6 +284,10 @@ p {
   .skill-text{
     text-align: center;
     font-size: 35px;
+  }
+
+  .contact-box{
+    padding: 40px 20px;
   }
 }
 
