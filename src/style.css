@@ -191,6 +191,66 @@ p {
     font-size: 45px;
   }
 
+  .image {
+    position: relative;
+  }
+  
+  .project-img {
+    display: block;
+    width: 100%;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 96%;
+    height: 83%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+
+  .image-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+  }
+
+  .image-overlay:hover {
+    opacity: 1;
+  }
+
+  .image-overlay:hover > * {
+    transform: translateY(0);
+  }
+  
+  .github-link {
+    font-size: 2.2em;
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .github-link:hover {
+    color: #ffff;
+  }
+  
+  .external-link {
+    font-size: 1.8em;
+    color: #ffff;
+  }
+
+  .external-link:hover {
+    color: #ffff;
+  }
+
   /* Contact page */
 
   .section-container {
@@ -231,7 +291,23 @@ p {
     background-color: var(--primary-color);
   }
 
-  
+@media screen and (min-width: 1280px) and (max-width: 1300px) {
+  .image-overlay {
+    top: 0;
+    width: 100%;
+    max-width: 95%;
+    height: 80%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1240px)  {
+  .image-overlay {
+    top: 0;
+    width: 100%;
+    max-width: 94%;
+    height: 76%;
+  }
+}
 
 @media screen and (min-width: 600px) and (max-width: 999px) {
   .project-description {
@@ -288,6 +364,13 @@ p {
 
   .contact-box{
     padding: 40px 20px;
+  }
+
+  .image-overlay {
+    top: 0;
+    width: 100%;
+    max-width: 96%;
+    height: 85%;
   }
 }
 
@@ -390,6 +473,13 @@ p {
   }
 /* Work page */
 
+  .image-overlay {
+    top: 0;
+    width: 100%;
+    max-width: 95%;
+    height: 79%;
+  }
+
   .work-text h1{
     font-size: 32px;
   }
@@ -401,6 +491,17 @@ p {
   .social-link {
     margin: 0 10px;
   }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 465px)  {
+
+.image-overlay {
+  top: 0;
+  width: 100%;
+  max-width: 93%;
+  height: 74%;
+}
 
 }
 
@@ -499,11 +600,35 @@ p {
     font-size: 32px;
   }
 
+  .image-overlay {
+    top: 0;
+    width: 100%;
+    max-width: 92%;
+    height: 72%;
+  }
+
+  .github-link {
+    font-size: 1.8em;
+  }
+  
+  .external-link {
+    font-size: 1.5em;
+  }
+
   .social-links{
     padding: 20px;
   }
 
   .social-link {
     margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .image-overlay {
+    top: 0;
+    width: 100%;
+    max-width: 90%;
+    height: 61%;
   }
 }
