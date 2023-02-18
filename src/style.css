@@ -120,6 +120,12 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.project-link{
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin: 60px 0;
+}
+
 /* Projects section */
 
 .project-description h2{
@@ -127,12 +133,6 @@ p {
 }
 
   /* About page */
-
- .content-container {
-    /* background: var(--secondary-color); */
-    /* text-align: center; */
-    /* padding: 180px 20px 30px; */
-  }
 
  .content {
     margin-right: 85px;
@@ -183,18 +183,29 @@ p {
     font-size: 40px;
   }
 
-  /* Footer */
-
-  .project-link{
-    padding: 30px 120px;
-    border-radius: 10px;
-    margin: 60px 0;
+  /* Work page */
+  .section-container {
+    text-align: center;
+    padding: 180px 20px 30px;
   }
 
-.social-links{
-  background-color: var(--secondary-color);
-  padding: 50px;
-}
+  .contact-box{
+    padding: 30px 120px;
+    border-radius: 10px;
+    margin: 30px 10%;
+    background-color: var(--secondary-color);
+  }
+
+  .contact-box h5{
+    text-align: left;
+  }
+
+ /* Social links */
+
+  .social-links{
+    background-color: var(--secondary-color);
+    padding: 50px;
+  }
 
  .social-link {
     margin: 0 20px;
